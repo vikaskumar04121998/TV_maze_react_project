@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(195, 178, 178);
+}
+
+.movie {
+    background-image: url("image_movie.jpg");
+    font-size: 30px;
+    margin: 20px;
+    width: 560px;
+    height: 175px;
+    padding: 40px 450px;
+    display: block;
+}
+
+.TVmaze {
+    margin-top: 65px;
+}
+
+.shows-display {
+    margin: 20px;
+    padding: 10px;
+}
+
+.header {
+    display: inline;
+}
+
+.header-details {
+    color: rgb(255, 255, 255);
+}
+
+.show {
+    margin: 20px;
+    padding: 20px 500px;
+}
+
+.actor {
+    margin: 20px;
+    padding: 20px 500px;
+}
+
+.showitem {
+    display: flex;
+    justify-items: center;
+}
+
+#tag {
+    color: "rgb(216, 51, 145)";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#input {
+    font-size: 25px;
+    display: grid;
+    border-radius: 8px;
+}
+
+#Actors {
+    width: 15px;
+    height: 15px;
+}
+
+#Shows {
+    width: 15px;
+    height: 15px;
+}
+
+#label {
+    color: #000;
+}
